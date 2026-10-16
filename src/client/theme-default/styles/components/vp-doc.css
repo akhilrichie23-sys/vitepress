@@ -359,8 +359,11 @@
   position: relative;
   margin: 1rem -1.5rem;
   background-color: var(--vp-code-block-bg);
-  overflow-x: auto;
   transition: background-color 0.5s;
+}
+
+.vp-block {
+  overflow-x: auto;
 }
 
 @media (min-width: 40rem) {
