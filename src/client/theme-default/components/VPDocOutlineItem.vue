@@ -53,4 +53,8 @@ defineProps<{
 .outline-link.nested {
   padding-inline-start: 0.8125rem;
 }
+
+.outline-link > * {
+  pointer-events: none;
+}
 </style>
